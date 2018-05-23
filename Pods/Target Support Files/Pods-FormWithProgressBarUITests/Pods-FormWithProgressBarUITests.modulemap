@@ -1,0 +1,6 @@
+framework module Pods_FormWithProgressBarUITests {
+  umbrella header "Pods-FormWithProgressBarUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
