@@ -1,0 +1,6 @@
+framework module Pods_FormWithProgressBar {
+  umbrella header "Pods-FormWithProgressBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

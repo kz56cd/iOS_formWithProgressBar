@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		657C6A2E458F043284906D3F /* Pods_FormWithProgressBarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04BCCECA685215E6863D1E4 /* Pods_FormWithProgressBarUITests.framework */; };
+		A2525CFD2D0FD328D46E9B88 /* Pods_FormWithProgressBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495CE06E5617D429401B01F2 /* Pods_FormWithProgressBarTests.framework */; };
+		C6FC703F8D46B8ADA00C3D26 /* Pods_FormWithProgressBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E3DE18DBD74F0B03C282EA /* Pods_FormWithProgressBar.framework */; };
 		EA3B568520B542DE00C1C9AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B568420B542DE00C1C9AA /* AppDelegate.swift */; };
 		EA3B568C20B542E000C1C9AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3B568B20B542E000C1C9AA /* Assets.xcassets */; };
 		EA3B568F20B542E000C1C9AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3B568D20B542E000C1C9AA /* LaunchScreen.storyboard */; };
@@ -39,6 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00213B332B5F84C63F861B27 /* Pods-FormWithProgressBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormWithProgressBarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FormWithProgressBarUITests/Pods-FormWithProgressBarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		44E3DE18DBD74F0B03C282EA /* Pods_FormWithProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FormWithProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		495CE06E5617D429401B01F2 /* Pods_FormWithProgressBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FormWithProgressBarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A222B693F940F068C1BC1F5 /* Pods-FormWithProgressBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormWithProgressBarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FormWithProgressBarTests/Pods-FormWithProgressBarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F6E694A4003EE289735A768 /* Pods-FormWithProgressBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormWithProgressBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FormWithProgressBar/Pods-FormWithProgressBar.debug.xcconfig"; sourceTree = "<group>"; };
+		A8B977C23E6F02A7017139F8 /* Pods-FormWithProgressBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormWithProgressBarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FormWithProgressBarUITests/Pods-FormWithProgressBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE41465D1FAC190FCD6421F1 /* Pods-FormWithProgressBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormWithProgressBarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FormWithProgressBarTests/Pods-FormWithProgressBarTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9E585FBF00FC13A1D8E16A4 /* Pods-FormWithProgressBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormWithProgressBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-FormWithProgressBar/Pods-FormWithProgressBar.release.xcconfig"; sourceTree = "<group>"; };
+		E04BCCECA685215E6863D1E4 /* Pods_FormWithProgressBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FormWithProgressBarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3B568120B542DE00C1C9AA /* FormWithProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormWithProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3B568420B542DE00C1C9AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA3B568B20B542E000C1C9AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6FC703F8D46B8ADA00C3D26 /* Pods_FormWithProgressBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2525CFD2D0FD328D46E9B88 /* Pods_FormWithProgressBarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				657C6A2E458F043284906D3F /* Pods_FormWithProgressBarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0749FEE7667B2A71646C2E21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44E3DE18DBD74F0B03C282EA /* Pods_FormWithProgressBar.framework */,
+				495CE06E5617D429401B01F2 /* Pods_FormWithProgressBarTests.framework */,
+				E04BCCECA685215E6863D1E4 /* Pods_FormWithProgressBarUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AB9E7D8B720777AE0AD58F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F6E694A4003EE289735A768 /* Pods-FormWithProgressBar.debug.xcconfig */,
+				B9E585FBF00FC13A1D8E16A4 /* Pods-FormWithProgressBar.release.xcconfig */,
+				7A222B693F940F068C1BC1F5 /* Pods-FormWithProgressBarTests.debug.xcconfig */,
+				AE41465D1FAC190FCD6421F1 /* Pods-FormWithProgressBarTests.release.xcconfig */,
+				A8B977C23E6F02A7017139F8 /* Pods-FormWithProgressBarUITests.debug.xcconfig */,
+				00213B332B5F84C63F861B27 /* Pods-FormWithProgressBarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EA3B567820B542DE00C1C9AA = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +129,8 @@
 				EA3B569820B542E000C1C9AA /* FormWithProgressBarTests */,
 				EA3B56A320B542E000C1C9AA /* FormWithProgressBarUITests */,
 				EA3B568220B542DE00C1C9AA /* Products */,
+				5AB9E7D8B720777AE0AD58F9 /* Pods */,
+				0749FEE7667B2A71646C2E21 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,8 +151,8 @@
 				EA3B568B20B542E000C1C9AA /* Assets.xcassets */,
 				EA3B568D20B542E000C1C9AA /* LaunchScreen.storyboard */,
 				EA3B569020B542E000C1C9AA /* Info.plist */,
-				EA3B56B520B5498400C1C9AA /* Components */,
 				EA3B56B320B5498300C1C9AA /* UI */,
+				EA3B56B520B5498400C1C9AA /* Components */,
 				EA3B56B420B5498400C1C9AA /* Constants */,
 			);
 			path = FormWithProgressBar;
@@ -195,10 +235,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA3B56A920B542E000C1C9AA /* Build configuration list for PBXNativeTarget "FormWithProgressBar" */;
 			buildPhases = (
+				887DEF6023AE1BB36F4ED92F /* [CP] Check Pods Manifest.lock */,
 				EA3B567D20B542DE00C1C9AA /* Sources */,
 				EA3B567E20B542DE00C1C9AA /* Frameworks */,
 				EA3B567F20B542DE00C1C9AA /* Resources */,
 				EA3B56B220B5488E00C1C9AA /* SwiftGen */,
+				C24F0DB5DCFE0DEA9775913F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,6 +255,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA3B56AC20B542E000C1C9AA /* Build configuration list for PBXNativeTarget "FormWithProgressBarTests" */;
 			buildPhases = (
+				41FCD8F537FDC75A388EF38E /* [CP] Check Pods Manifest.lock */,
 				EA3B569120B542E000C1C9AA /* Sources */,
 				EA3B569220B542E000C1C9AA /* Frameworks */,
 				EA3B569320B542E000C1C9AA /* Resources */,
@@ -231,6 +274,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA3B56AF20B542E000C1C9AA /* Build configuration list for PBXNativeTarget "FormWithProgressBarUITests" */;
 			buildPhases = (
+				186E88406F0112A06D96BBDC /* [CP] Check Pods Manifest.lock */,
 				EA3B569C20B542E000C1C9AA /* Sources */,
 				EA3B569D20B542E000C1C9AA /* Frameworks */,
 				EA3B569E20B542E000C1C9AA /* Resources */,
@@ -318,6 +362,78 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		186E88406F0112A06D96BBDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FormWithProgressBarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41FCD8F537FDC75A388EF38E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FormWithProgressBarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		887DEF6023AE1BB36F4ED92F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FormWithProgressBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C24F0DB5DCFE0DEA9775913F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FormWithProgressBar/Pods-FormWithProgressBar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FlexibleSteppedProgressBar/FlexibleSteppedProgressBar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlexibleSteppedProgressBar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FormWithProgressBar/Pods-FormWithProgressBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		EA3B56B220B5488E00C1C9AA /* SwiftGen */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -506,6 +622,7 @@
 		};
 		EA3B56AA20B542E000C1C9AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F6E694A4003EE289735A768 /* Pods-FormWithProgressBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -524,6 +641,7 @@
 		};
 		EA3B56AB20B542E000C1C9AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E585FBF00FC13A1D8E16A4 /* Pods-FormWithProgressBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -542,6 +660,7 @@
 		};
 		EA3B56AD20B542E000C1C9AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A222B693F940F068C1BC1F5 /* Pods-FormWithProgressBarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -563,6 +682,7 @@
 		};
 		EA3B56AE20B542E000C1C9AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE41465D1FAC190FCD6421F1 /* Pods-FormWithProgressBarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -584,6 +704,7 @@
 		};
 		EA3B56B020B542E000C1C9AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B977C23E6F02A7017139F8 /* Pods-FormWithProgressBarUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -604,6 +725,7 @@
 		};
 		EA3B56B120B542E000C1C9AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00213B332B5F84C63F861B27 /* Pods-FormWithProgressBarUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
