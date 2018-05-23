@@ -32,15 +32,6 @@ final class FormViewController: UIViewController, ContainerViewShowing {
         prepareProgressBar()
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-//        _ = pageChildViewControllers.enumerated().map { (offset, vc) -> FormChild01ViewController in
-////            vc.label.text = "\(offset + 1)"
-////            vc.label.text = "hoge"
-////            print("\(vc)")
-//            return vc
-//        }
-    }
-    
     // MARK: - action
     @IBAction func closeButtonTapped(_ sender: UIButton) {
         dismiss(animated: true, completion: nil)
@@ -138,16 +129,6 @@ extension FormViewController: FlexibleSteppedProgressBarDelegate {
     }
     
     func progressBar(_ progressBar: FlexibleSteppedProgressBar, textAtIndex index: Int, position: FlexibleSteppedProgressBarTextLocation) -> String {
-        //        if position == FlexibleSteppedProgressBarTextLocation.bottom {
-        //            switch index {
-        //                case 0: return "First"
-        //                case 1: return "Second"
-        //                case 2: return "Third"
-        //                case 3: return "Fourth"
-        //                case 4: return "Fifth"
-        //                default: return "Date"
-        //            }
-        //        }
         return ""
     }
 }

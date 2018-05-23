@@ -18,6 +18,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="CES-1g-OCb">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="vl8-rj-6bz">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vl8-rj-6bz" id="Zfa-GM-iz4">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Fqr-5V-72m" id="AaL-Nu-PHi"/>
+                                    <outlet property="delegate" destination="Fqr-5V-72m" id="bDu-mQ-gZ1"/>
+                                </connections>
+                            </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="page VC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cIJ-le-Rok">
                                 <rect key="frame" x="61.5" y="292.5" width="252" height="82.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="69"/>
@@ -27,18 +45,23 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="CES-1g-OCb" firstAttribute="top" secondItem="DIO-Uf-U4A" secondAttribute="top" id="9p1-hX-QHi"/>
+                            <constraint firstItem="DIO-Uf-U4A" firstAttribute="trailing" secondItem="CES-1g-OCb" secondAttribute="trailing" id="Bcq-d4-HQc"/>
                             <constraint firstItem="cIJ-le-Rok" firstAttribute="centerX" secondItem="0YG-hM-2Mm" secondAttribute="centerX" id="Ggc-Ob-Hfl"/>
+                            <constraint firstItem="CES-1g-OCb" firstAttribute="bottom" secondItem="DIO-Uf-U4A" secondAttribute="bottom" id="KgT-YE-TY9"/>
                             <constraint firstItem="cIJ-le-Rok" firstAttribute="centerY" secondItem="0YG-hM-2Mm" secondAttribute="centerY" id="LvJ-Aj-2UA"/>
+                            <constraint firstItem="CES-1g-OCb" firstAttribute="leading" secondItem="DIO-Uf-U4A" secondAttribute="leading" id="kB2-jI-4GT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="DIO-Uf-U4A"/>
                     </view>
                     <connections>
+                        <outlet property="tableView" destination="CES-1g-OCb" id="IE2-NA-msI"/>
                         <outlet property="titleLabel" destination="cIJ-le-Rok" id="gw4-o6-A66"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3In-l1-KCj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-350" y="114"/>
+            <point key="canvasLocation" x="-351.19999999999999" y="113.79310344827587"/>
         </scene>
     </scenes>
 </document>
