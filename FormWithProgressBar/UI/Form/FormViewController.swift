@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import Prelude
 
-final class FormViewController: UIViewController {
+final class FormViewController: UIViewController, ContainerViewShowing {
 
+    @IBOutlet weak var containerView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        configureContainerView()
     }
     
     @IBAction func closeButtonTapped(_ sender: UIButton) {
@@ -20,7 +24,10 @@ final class FormViewController: UIViewController {
 }
 
 extension FormViewController {
-    // stub
+    fileprivate func configureContainerView() {
+        let pageViewController = StoryboardScene.FormPageViewController.initialScene.instantiate()
+        addChildViewController(pageViewController, to: containerView)
+    }
 }
 
 

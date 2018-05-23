@@ -53,6 +53,16 @@ internal extension UIViewController {
 
 // swiftlint:disable explicit_type_interface identifier_name line_length type_body_length type_name
 internal enum StoryboardScene {
+  internal enum FormChild01ViewController: StoryboardType {
+    internal static let storyboardName = "FormChild01ViewController"
+
+    internal static let initialScene = InitialSceneType<FormWithProgressBar.FormChild01ViewController>(storyboard: FormChild01ViewController.self)
+  }
+  internal enum FormPageViewController: StoryboardType {
+    internal static let storyboardName = "FormPageViewController"
+
+    internal static let initialScene = InitialSceneType<FormWithProgressBar.FormPageViewController>(storyboard: FormPageViewController.self)
+  }
   internal enum FormViewController: StoryboardType {
     internal static let storyboardName = "FormViewController"
 

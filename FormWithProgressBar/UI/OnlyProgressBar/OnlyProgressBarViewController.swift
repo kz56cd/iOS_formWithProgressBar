@@ -30,11 +30,11 @@ extension OnlyProgressBarViewController {
         progressBar.delegate = self
         
         // custumize UI / animation
-        progressBar.currentSelectedCenterColor = .white
+        progressBar.currentSelectedCenterColor = blueColor
         progressBar.selectedOuterCircleStrokeColor = blueColor
         progressBar.selectedBackgoundColor = blueColor
         
-        progressBar.selectedOuterCircleLineWidth = 5.0
+        progressBar.selectedOuterCircleLineWidth = 0
         progressBar.stepAnimationDuration = 0.2
     }
 }
