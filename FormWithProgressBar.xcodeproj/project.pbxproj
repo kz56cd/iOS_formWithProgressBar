@@ -10,9 +10,6 @@
 		657C6A2E458F043284906D3F /* Pods_FormWithProgressBarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04BCCECA685215E6863D1E4 /* Pods_FormWithProgressBarUITests.framework */; };
 		A2525CFD2D0FD328D46E9B88 /* Pods_FormWithProgressBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495CE06E5617D429401B01F2 /* Pods_FormWithProgressBarTests.framework */; };
 		C6FC703F8D46B8ADA00C3D26 /* Pods_FormWithProgressBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E3DE18DBD74F0B03C282EA /* Pods_FormWithProgressBar.framework */; };
-		EA3B568520B542DE00C1C9AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B568420B542DE00C1C9AA /* AppDelegate.swift */; };
-		EA3B568C20B542E000C1C9AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3B568B20B542E000C1C9AA /* Assets.xcassets */; };
-		EA3B568F20B542E000C1C9AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3B568D20B542E000C1C9AA /* LaunchScreen.storyboard */; };
 		EA3B569A20B542E000C1C9AA /* FormWithProgressBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B569920B542E000C1C9AA /* FormWithProgressBarTests.swift */; };
 		EA3B56A520B542E000C1C9AA /* FormWithProgressBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B56A420B542E000C1C9AA /* FormWithProgressBarUITests.swift */; };
 		EA3B56B820B549BA00C1C9AA /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B56B720B549BA00C1C9AA /* TopViewController.swift */; };
@@ -22,6 +19,10 @@
 		EA3B56C120B54BA500C1C9AA /* OnlyProgressBarViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3B56C020B54BA500C1C9AA /* OnlyProgressBarViewController.storyboard */; };
 		EA3B56C420B54D0300C1C9AA /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B56C320B54D0300C1C9AA /* FormViewController.swift */; };
 		EA3B56C620B54D0900C1C9AA /* FormViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3B56C520B54D0900C1C9AA /* FormViewController.storyboard */; };
+		EA3B56CD20B5519A00C1C9AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3B56C820B5519A00C1C9AA /* Assets.xcassets */; };
+		EA3B56CE20B5519A00C1C9AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3B56C920B5519A00C1C9AA /* LaunchScreen.storyboard */; };
+		EA3B56CF20B5519A00C1C9AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B56CB20B5519A00C1C9AA /* AppDelegate.swift */; };
+		EA3B56D020B5519A00C1C9AA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA3B56CC20B5519A00C1C9AA /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,10 +53,6 @@
 		B9E585FBF00FC13A1D8E16A4 /* Pods-FormWithProgressBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormWithProgressBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-FormWithProgressBar/Pods-FormWithProgressBar.release.xcconfig"; sourceTree = "<group>"; };
 		E04BCCECA685215E6863D1E4 /* Pods_FormWithProgressBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FormWithProgressBarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3B568120B542DE00C1C9AA /* FormWithProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormWithProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA3B568420B542DE00C1C9AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA3B568B20B542E000C1C9AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EA3B568E20B542E000C1C9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EA3B569020B542E000C1C9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA3B569520B542E000C1C9AA /* FormWithProgressBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormWithProgressBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3B569920B542E000C1C9AA /* FormWithProgressBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormWithProgressBarTests.swift; sourceTree = "<group>"; };
 		EA3B569B20B542E000C1C9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,6 +66,10 @@
 		EA3B56C020B54BA500C1C9AA /* OnlyProgressBarViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnlyProgressBarViewController.storyboard; sourceTree = "<group>"; };
 		EA3B56C320B54D0300C1C9AA /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		EA3B56C520B54D0900C1C9AA /* FormViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FormViewController.storyboard; sourceTree = "<group>"; };
+		EA3B56C820B5519A00C1C9AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA3B56CA20B5519A00C1C9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA3B56CB20B5519A00C1C9AA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA3B56CC20B5519A00C1C9AA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,10 +148,7 @@
 		EA3B568320B542DE00C1C9AA /* FormWithProgressBar */ = {
 			isa = PBXGroup;
 			children = (
-				EA3B568420B542DE00C1C9AA /* AppDelegate.swift */,
-				EA3B568B20B542E000C1C9AA /* Assets.xcassets */,
-				EA3B568D20B542E000C1C9AA /* LaunchScreen.storyboard */,
-				EA3B569020B542E000C1C9AA /* Info.plist */,
+				EA3B56C720B5519A00C1C9AA /* Application */,
 				EA3B56B320B5498300C1C9AA /* UI */,
 				EA3B56B520B5498400C1C9AA /* Components */,
 				EA3B56B420B5498400C1C9AA /* Constants */,
@@ -226,6 +224,17 @@
 				EA3B56C320B54D0300C1C9AA /* FormViewController.swift */,
 			);
 			path = Form;
+			sourceTree = "<group>";
+		};
+		EA3B56C720B5519A00C1C9AA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B56C820B5519A00C1C9AA /* Assets.xcassets */,
+				EA3B56C920B5519A00C1C9AA /* LaunchScreen.storyboard */,
+				EA3B56CB20B5519A00C1C9AA /* AppDelegate.swift */,
+				EA3B56CC20B5519A00C1C9AA /* Info.plist */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,10 +346,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA3B568F20B542E000C1C9AA /* LaunchScreen.storyboard in Resources */,
-				EA3B568C20B542E000C1C9AA /* Assets.xcassets in Resources */,
 				EA3B56C120B54BA500C1C9AA /* OnlyProgressBarViewController.storyboard in Resources */,
 				EA3B56C620B54D0900C1C9AA /* FormViewController.storyboard in Resources */,
+				EA3B56D020B5519A00C1C9AA /* Info.plist in Resources */,
+				EA3B56CD20B5519A00C1C9AA /* Assets.xcassets in Resources */,
+				EA3B56CE20B5519A00C1C9AA /* LaunchScreen.storyboard in Resources */,
 				EA3B56BA20B549C400C1C9AA /* TopViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,8 +468,8 @@
 				EA3B56BC20B549FA00C1C9AA /* Storyboards.swift in Sources */,
 				EA3B56BF20B54B9E00C1C9AA /* OnlyProgressBarViewController.swift in Sources */,
 				EA3B56B820B549BA00C1C9AA /* TopViewController.swift in Sources */,
+				EA3B56CF20B5519A00C1C9AA /* AppDelegate.swift in Sources */,
 				EA3B56C420B54D0300C1C9AA /* FormViewController.swift in Sources */,
-				EA3B568520B542DE00C1C9AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,10 +505,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EA3B568D20B542E000C1C9AA /* LaunchScreen.storyboard */ = {
+		EA3B56C920B5519A00C1C9AA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EA3B568E20B542E000C1C9AA /* Base */,
+				EA3B56CA20B5519A00C1C9AA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -627,7 +637,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
-				INFOPLIST_FILE = FormWithProgressBar/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FormWithProgressBar/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -646,7 +656,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
-				INFOPLIST_FILE = FormWithProgressBar/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FormWithProgressBar/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
