@@ -23,6 +23,10 @@
 		EA3B56CE20B5519A00C1C9AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3B56C920B5519A00C1C9AA /* LaunchScreen.storyboard */; };
 		EA3B56CF20B5519A00C1C9AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B56CB20B5519A00C1C9AA /* AppDelegate.swift */; };
 		EA3B56D020B5519A00C1C9AA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA3B56CC20B5519A00C1C9AA /* Info.plist */; };
+		EA3B56D220B5769B00C1C9AA /* CartFile in Resources */ = {isa = PBXBuildFile; fileRef = EA3B56D120B5769B00C1C9AA /* CartFile */; };
+		EA3B56D420B576E600C1C9AA /* Prelude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3B56D320B576E600C1C9AA /* Prelude.framework */; };
+		EA3B56D920B5779F00C1C9AA /* FormChild01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B56D820B5779F00C1C9AA /* FormChild01ViewController.swift */; };
+		EA3B56DB20B577D900C1C9AA /* FormChild01ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3B56DA20B577D900C1C9AA /* FormChild01ViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +74,10 @@
 		EA3B56CA20B5519A00C1C9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA3B56CB20B5519A00C1C9AA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA3B56CC20B5519A00C1C9AA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3B56D120B5769B00C1C9AA /* CartFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CartFile; sourceTree = "<group>"; };
+		EA3B56D320B576E600C1C9AA /* Prelude.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Prelude.framework; path = Carthage/Build/iOS/Prelude.framework; sourceTree = "<group>"; };
+		EA3B56D820B5779F00C1C9AA /* FormChild01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormChild01ViewController.swift; sourceTree = "<group>"; };
+		EA3B56DA20B577D900C1C9AA /* FormChild01ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FormChild01ViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3B56D420B576E600C1C9AA /* Prelude.framework in Frameworks */,
 				C6FC703F8D46B8ADA00C3D26 /* Pods_FormWithProgressBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +112,7 @@
 		0749FEE7667B2A71646C2E21 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EA3B56D320B576E600C1C9AA /* Prelude.framework */,
 				44E3DE18DBD74F0B03C282EA /* Pods_FormWithProgressBar.framework */,
 				495CE06E5617D429401B01F2 /* Pods_FormWithProgressBarTests.framework */,
 				E04BCCECA685215E6863D1E4 /* Pods_FormWithProgressBarUITests.framework */,
@@ -126,6 +136,7 @@
 		EA3B567820B542DE00C1C9AA = {
 			isa = PBXGroup;
 			children = (
+				EA3B56D120B5769B00C1C9AA /* CartFile */,
 				EA3B568320B542DE00C1C9AA /* FormWithProgressBar */,
 				EA3B569820B542E000C1C9AA /* FormWithProgressBarTests */,
 				EA3B56A320B542E000C1C9AA /* FormWithProgressBarUITests */,
@@ -222,6 +233,7 @@
 			children = (
 				EA3B56C520B54D0900C1C9AA /* FormViewController.storyboard */,
 				EA3B56C320B54D0300C1C9AA /* FormViewController.swift */,
+				EA3B56D720B5777F00C1C9AA /* Child */,
 			);
 			path = Form;
 			sourceTree = "<group>";
@@ -237,6 +249,15 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
+		EA3B56D720B5777F00C1C9AA /* Child */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B56DA20B577D900C1C9AA /* FormChild01ViewController.storyboard */,
+				EA3B56D820B5779F00C1C9AA /* FormChild01ViewController.swift */,
+			);
+			path = Child;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -248,8 +269,9 @@
 				EA3B567D20B542DE00C1C9AA /* Sources */,
 				EA3B567E20B542DE00C1C9AA /* Frameworks */,
 				EA3B567F20B542DE00C1C9AA /* Resources */,
-				EA3B56B220B5488E00C1C9AA /* SwiftGen */,
 				C24F0DB5DCFE0DEA9775913F /* [CP] Embed Pods Frameworks */,
+				EA3B56B220B5488E00C1C9AA /* SwiftGen */,
+				EA3B56D620B5770200C1C9AA /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -349,9 +371,11 @@
 				EA3B56C120B54BA500C1C9AA /* OnlyProgressBarViewController.storyboard in Resources */,
 				EA3B56C620B54D0900C1C9AA /* FormViewController.storyboard in Resources */,
 				EA3B56D020B5519A00C1C9AA /* Info.plist in Resources */,
+				EA3B56DB20B577D900C1C9AA /* FormChild01ViewController.storyboard in Resources */,
 				EA3B56CD20B5519A00C1C9AA /* Assets.xcassets in Resources */,
 				EA3B56CE20B5519A00C1C9AA /* LaunchScreen.storyboard in Resources */,
 				EA3B56BA20B549C400C1C9AA /* TopViewController.storyboard in Resources */,
+				EA3B56D220B5769B00C1C9AA /* CartFile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +484,21 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftgen >/dev/null; then\nswiftgen storyboards --template swift4 \"$PROJECT_DIR/FormWithProgressBar\" --output \"$PROJECT_DIR/FormWithProgressBar/Constants/Storyboards.swift\"\nelse\necho \"warning: SwiftGen not installed, download it from https://github.com/AliSoftware/SwiftGen\"\nfi";
 		};
+		EA3B56D620B5770200C1C9AA /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Prelude.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -467,6 +506,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3B56D920B5779F00C1C9AA /* FormChild01ViewController.swift in Sources */,
 				EA3B56BC20B549FA00C1C9AA /* Storyboards.swift in Sources */,
 				EA3B56BF20B54B9E00C1C9AA /* OnlyProgressBarViewController.swift in Sources */,
 				EA3B56B820B549BA00C1C9AA /* TopViewController.swift in Sources */,
@@ -639,8 +679,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/FormWithProgressBar/Application/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.FormWithProgressBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -655,8 +702,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/FormWithProgressBar/Application/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.FormWithProgressBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -673,7 +727,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
 				INFOPLIST_FILE = FormWithProgressBarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.FormWithProgressBarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -691,7 +749,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
 				INFOPLIST_FILE = FormWithProgressBarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.FormWithProgressBarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -708,7 +770,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
 				INFOPLIST_FILE = FormWithProgressBarUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.FormWithProgressBarUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -725,7 +791,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
 				INFOPLIST_FILE = FormWithProgressBarUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cc.ka56cd.FormWithProgressBarUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
