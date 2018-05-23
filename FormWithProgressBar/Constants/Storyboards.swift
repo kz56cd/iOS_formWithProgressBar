@@ -58,11 +58,6 @@ internal enum StoryboardScene {
 
     internal static let initialScene = InitialSceneType<FormWithProgressBar.FormChild01ViewController>(storyboard: FormChild01ViewController.self)
   }
-  internal enum FormPageViewController: StoryboardType {
-    internal static let storyboardName = "FormPageViewController"
-
-    internal static let initialScene = InitialSceneType<FormWithProgressBar.FormPageViewController>(storyboard: FormPageViewController.self)
-  }
   internal enum FormViewController: StoryboardType {
     internal static let storyboardName = "FormViewController"
 

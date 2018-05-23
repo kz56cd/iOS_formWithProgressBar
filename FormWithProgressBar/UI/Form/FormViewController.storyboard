@@ -41,11 +41,11 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fixed Area" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I7e-mr-7CQ">
                                         <rect key="frame" x="147" y="40" width="81" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.64916612694300513" green="0.64916612694300513" blue="0.64916612694300513" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.81883500647668395" green="0.81883500647668395" blue="0.81883500647668395" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.9268741904145078" green="0.9268741904145078" blue="0.9268741904145078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.98160216968911918" green="0.98125456844841319" blue="0.90704043282616187" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="I7e-mr-7CQ" firstAttribute="centerX" secondItem="BIP-Ag-Prd" secondAttribute="centerX" id="0Fr-ui-Q5n"/>
                                     <constraint firstItem="I7e-mr-7CQ" firstAttribute="centerY" secondItem="BIP-Ag-Prd" secondAttribute="centerY" id="ItS-85-L6g"/>

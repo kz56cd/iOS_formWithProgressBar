@@ -27,8 +27,6 @@
 		EA3B56D420B576E600C1C9AA /* Prelude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3B56D320B576E600C1C9AA /* Prelude.framework */; };
 		EA3B56D920B5779F00C1C9AA /* FormChild01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B56D820B5779F00C1C9AA /* FormChild01ViewController.swift */; };
 		EA3B56DB20B577D900C1C9AA /* FormChild01ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3B56DA20B577D900C1C9AA /* FormChild01ViewController.storyboard */; };
-		EA3B56DE20B5787100C1C9AA /* FormPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B56DD20B5787100C1C9AA /* FormPageViewController.swift */; };
-		EA3B56E020B5789200C1C9AA /* FormPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3B56DF20B5789200C1C9AA /* FormPageViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,8 +78,6 @@
 		EA3B56D320B576E600C1C9AA /* Prelude.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Prelude.framework; path = Carthage/Build/iOS/Prelude.framework; sourceTree = "<group>"; };
 		EA3B56D820B5779F00C1C9AA /* FormChild01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormChild01ViewController.swift; sourceTree = "<group>"; };
 		EA3B56DA20B577D900C1C9AA /* FormChild01ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FormChild01ViewController.storyboard; sourceTree = "<group>"; };
-		EA3B56DD20B5787100C1C9AA /* FormPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormPageViewController.swift; sourceTree = "<group>"; };
-		EA3B56DF20B5789200C1C9AA /* FormPageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FormPageViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,7 +233,6 @@
 			children = (
 				EA3B56C520B54D0900C1C9AA /* FormViewController.storyboard */,
 				EA3B56C320B54D0300C1C9AA /* FormViewController.swift */,
-				EA3B56DC20B5785800C1C9AA /* Page */,
 				EA3B56D720B5777F00C1C9AA /* Child */,
 			);
 			path = Form;
@@ -261,15 +256,6 @@
 				EA3B56D820B5779F00C1C9AA /* FormChild01ViewController.swift */,
 			);
 			path = Child;
-			sourceTree = "<group>";
-		};
-		EA3B56DC20B5785800C1C9AA /* Page */ = {
-			isa = PBXGroup;
-			children = (
-				EA3B56DF20B5789200C1C9AA /* FormPageViewController.storyboard */,
-				EA3B56DD20B5787100C1C9AA /* FormPageViewController.swift */,
-			);
-			path = Page;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,7 +368,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA3B56E020B5789200C1C9AA /* FormPageViewController.storyboard in Resources */,
 				EA3B56C120B54BA500C1C9AA /* OnlyProgressBarViewController.storyboard in Resources */,
 				EA3B56C620B54D0900C1C9AA /* FormViewController.storyboard in Resources */,
 				EA3B56D020B5519A00C1C9AA /* Info.plist in Resources */,
@@ -526,7 +511,6 @@
 				EA3B56BF20B54B9E00C1C9AA /* OnlyProgressBarViewController.swift in Sources */,
 				EA3B56B820B549BA00C1C9AA /* TopViewController.swift in Sources */,
 				EA3B56CF20B5519A00C1C9AA /* AppDelegate.swift in Sources */,
-				EA3B56DE20B5787100C1C9AA /* FormPageViewController.swift in Sources */,
 				EA3B56C420B54D0300C1C9AA /* FormViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
