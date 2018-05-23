@@ -62,7 +62,8 @@ extension FormViewController {
     fileprivate func configureContainerView() {
         func preparePageViewController() {
             pageViewController.delegate = self
-            pageViewController.dataSource = self
+            // NOTE: do not use pageViewController.dataSource (to kill paging by left or right swipe)
+            
             pageViewController.setViewControllers(
                 [pageChildViewControllers.first!],
                 direction: .forward,
@@ -114,32 +115,6 @@ extension FormViewController {
             completion: nil
         )
         progressBar.currentIndex = selectedIndex
-    }
-}
-
-extension FormViewController: UIPageViewControllerDataSource {
-    func pageViewController(
-        _ pageViewController: UIPageViewController,
-        viewControllerBefore viewController: UIViewController
-        ) -> UIViewController? {
-        guard let index = pageChildViewControllers.index(of: viewController as! FormChild01ViewController),
-            index > 0 else {
-                return nil
-        }
-        selectedIndex = index
-        return pageChildViewControllers[index - 1]
-    }
-    
-    func pageViewController(
-        _ pageViewController: UIPageViewController,
-        viewControllerAfter viewController: UIViewController
-        ) -> UIViewController? {
-        guard let index = pageChildViewControllers.index(of: viewController as! FormChild01ViewController),
-            index < pageChildViewControllers.count - 1 else {
-                return nil
-        }
-        selectedIndex = index
-        return pageChildViewControllers[index + 1]
     }
 }
 
