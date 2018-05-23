@@ -6,6 +6,7 @@ target 'FormWithProgressBar' do
   use_frameworks!
 
   pod "FlexibleSteppedProgressBar"
+  pod 'SwiftHEXColors'
 
   target 'FormWithProgressBarTests' do
     inherit! :search_paths

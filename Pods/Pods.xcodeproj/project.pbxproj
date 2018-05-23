@@ -7,27 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		192AF2AE2A0C6EC2DB518DF5D3FEA634 /* Pods-FormWithProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E05376982BCBE3ED3CED59EA46B696 /* Pods-FormWithProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27FD20389DE927A6B90CD4102129692D /* FlexibleSteppedProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B64663E922E27FCFA4F75A9082BD5C89 /* FlexibleSteppedProgressBar-dummy.m */; };
+		078FC283CF7B1A0D907415EAF7A15D50 /* SwiftHEXColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A9DC0856503D5BD358BF09433A6922 /* SwiftHEXColors.swift */; };
+		26F28D9DF9217AEC2E9C0848157317F4 /* SwiftHEXColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BECF1EEAE4665BDC8DD029939004DF5E /* SwiftHEXColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27FD20389DE927A6B90CD4102129692D /* FlexibleSteppedProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8CAA3B53D4F249A3D4EC9BEB4CF3D9 /* FlexibleSteppedProgressBar-dummy.m */; };
 		30AB9BE3D5DF2FDCCDDF2E716519D569 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		604896E5F7C64DB5F0AAA21354D3D15B /* Pods-FormWithProgressBarUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7E6125EC3D24F589AE307A0D42F70B /* Pods-FormWithProgressBarUITests-dummy.m */; };
 		66DE622807E9881C02F80633D7D11793 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		6F715041CDA038200FF25D2991957E57 /* SwiftHEXColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7D3D5414B055E895D03D9EE39FB027 /* SwiftHEXColors-dummy.m */; };
+		885FC13807FCDB898C74EB0DDCD6B93E /* SwiftHEXColors.h in Headers */ = {isa = PBXBuildFile; fileRef = B2EEA29EB749848E31364766E27385B4 /* SwiftHEXColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A29B30DB958E5C3F1C1E259B9E233A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		8C3653BDEF1E1F99700554B973AA51F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		92974A612A492CD211BC6F98BCF8A74F /* FlexibleSteppedProgressBarTextLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F59F097F344FE2AF9A7307CE158FF81 /* FlexibleSteppedProgressBarTextLocation.swift */; };
-		931BBD3ED01CCED73A3D5BA967478AB1 /* FlexibleSteppedProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF6D26DD0ABF506CA8F1AAA41BB6A5B /* FlexibleSteppedProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E21B6709CA859CCABB8B6BAB15FF4F8 /* FSPBPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C422EA4F9D1C95F76D6E6DF1F3A15 /* FSPBPointExtension.swift */; };
-		B6F97F627ED13C6632CD06960ACA5384 /* FSPBTextLayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE82F9D4B0BB9A5E618A72DDE121CBC /* FSPBTextLayerExtension.swift */; };
+		92974A612A492CD211BC6F98BCF8A74F /* FlexibleSteppedProgressBarTextLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CDFD533DE61A080647979FECF752F2 /* FlexibleSteppedProgressBarTextLocation.swift */; };
+		931BBD3ED01CCED73A3D5BA967478AB1 /* FlexibleSteppedProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EF26A15A606F4AC2DFC2C09F83017AE /* FlexibleSteppedProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E21B6709CA859CCABB8B6BAB15FF4F8 /* FSPBPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89963552FC244CD6693FE14CC36B9A5C /* FSPBPointExtension.swift */; };
+		B6F97F627ED13C6632CD06960ACA5384 /* FSPBTextLayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686D55DAFE7EC30A4D8C9A245A13F1D5 /* FSPBTextLayerExtension.swift */; };
+		BBE11710BCD343F723C4C97D3DEBAD03 /* Pods-FormWithProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E05376982BCBE3ED3CED59EA46B696 /* Pods-FormWithProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEC649F1FBA48BFB12755874B7F77D21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		CF19F6F25FE1430E9AD9DFCA2D1AB897 /* Pods-FormWithProgressBarTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C92B43401321FB49FAF3433706C14245 /* Pods-FormWithProgressBarTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D32B85618A32734342E98862A580EDCD /* Pods-FormWithProgressBarUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E9ABF835678011B558A638DE2BCD55 /* Pods-FormWithProgressBarUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB5B65066E968678C402B015F0E22C2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		DBEE99B2E1177D35D8EF93B7B0ABFAF6 /* Pods-FormWithProgressBarTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCFE8DEED6454665959578964D75FAE /* Pods-FormWithProgressBarTests-dummy.m */; };
-		DFFD94FEF6BF20ACC11F11547A7D2CF5 /* Pods-FormWithProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F67BB1B9286C85BF519B9CDF6E85B2D /* Pods-FormWithProgressBar-dummy.m */; };
-		E3F56636076B5C10C747E49D0D0C052C /* FlexibleSteppedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9537FDC681F38A1FBD9B21995302A9 /* FlexibleSteppedProgressBar.swift */; };
-		EBC9B11C5E9E43F2EA0A040D9A1A753A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		E3F56636076B5C10C747E49D0D0C052C /* FlexibleSteppedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC189C25EE44113CD20C40D86105441 /* FlexibleSteppedProgressBar.swift */; };
+		FFEC18023F35D17B71A8611C20DCFB8E /* Pods-FormWithProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F67BB1B9286C85BF519B9CDF6E85B2D /* Pods-FormWithProgressBar-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7B385DAAF0E39632FCBA791108E8F060 /* PBXContainerItemProxy */ = {
+		3CA19587CBFB9CC19A5B8EBFF2EAA516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DDABB9C51B9A11D60693FCDB7677810;
+			remoteInfo = SwiftHEXColors;
+		};
+		D247727746ECCD5CF545D4DF2CF23636 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -38,69 +50,86 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 419A8C72155C52D3F60778B6C16D07FF;
+			remoteGlobalIDString = EDA0242D1B006AD1D98C3D8A4DF6BA16;
 			remoteInfo = "Pods-FormWithProgressBar";
 		};
 		F81BA3A0A0D0451943E9DC806B156321 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 419A8C72155C52D3F60778B6C16D07FF;
+			remoteGlobalIDString = EDA0242D1B006AD1D98C3D8A4DF6BA16;
 			remoteInfo = "Pods-FormWithProgressBar";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01207E55C8E6CB24E89EE040DBE5B344 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06B4EB75EED2811749DAD6B5BCDF86F0 /* SwiftHEXColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHEXColors-prefix.pch"; sourceTree = "<group>"; };
 		08E05376982BCBE3ED3CED59EA46B696 /* Pods-FormWithProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FormWithProgressBar-umbrella.h"; sourceTree = "<group>"; };
-		0AF6D26DD0ABF506CA8F1AAA41BB6A5B /* FlexibleSteppedProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexibleSteppedProgressBar-umbrella.h"; sourceTree = "<group>"; };
 		0D0FA1A284FA6D74ACB981DB1772BD12 /* Pods-FormWithProgressBarTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FormWithProgressBarTests-frameworks.sh"; sourceTree = "<group>"; };
 		0DD68C4584AFAEB99BAE491B5F6B712A /* Pods-FormWithProgressBarTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FormWithProgressBarTests.modulemap"; sourceTree = "<group>"; };
 		0F67BB1B9286C85BF519B9CDF6E85B2D /* Pods-FormWithProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FormWithProgressBar-dummy.m"; sourceTree = "<group>"; };
+		1046E98E1737ECFA3DAE4B2A424B5FEA /* SwiftHEXColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftHEXColors.xcconfig; sourceTree = "<group>"; };
 		21E9ABF835678011B558A638DE2BCD55 /* Pods-FormWithProgressBarUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FormWithProgressBarUITests-umbrella.h"; sourceTree = "<group>"; };
-		25A36970C0A23324823EDB4B087AE1A3 /* FlexibleSteppedProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlexibleSteppedProgressBar.framework; path = FlexibleSteppedProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		288A8405B40EF8FE71EE8AF3A4ECC88B /* FlexibleSteppedProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexibleSteppedProgressBar.xcconfig; sourceTree = "<group>"; };
+		27CDFD533DE61A080647979FECF752F2 /* FlexibleSteppedProgressBarTextLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexibleSteppedProgressBarTextLocation.swift; path = FlexibleSteppedProgressBar/Classes/FlexibleSteppedProgressBarTextLocation.swift; sourceTree = "<group>"; };
+		2860FAD9D7DD0A48C8DE62629519BB90 /* FlexibleSteppedProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexibleSteppedProgressBar-prefix.pch"; sourceTree = "<group>"; };
 		2B68366D7A3588ACB745664C9B215FE3 /* Pods-FormWithProgressBarUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FormWithProgressBarUITests.modulemap"; sourceTree = "<group>"; };
 		34C7450B71C6767E11ACD35B540A59ED /* Pods-FormWithProgressBarTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FormWithProgressBarTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		34DC2BD30A276E0EA91CE95DACFA33DE /* FlexibleSteppedProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexibleSteppedProgressBar-prefix.pch"; sourceTree = "<group>"; };
-		3DE716C547FAEC6F7DF947A4ABCC7C97 /* Pods_FormWithProgressBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FormWithProgressBarUITests.framework; path = "Pods-FormWithProgressBarUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		455FD5154F9C7FF7EAD21F9DB52CB33C /* Pods-FormWithProgressBarUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FormWithProgressBarUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A8CAA3B53D4F249A3D4EC9BEB4CF3D9 /* FlexibleSteppedProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlexibleSteppedProgressBar-dummy.m"; sourceTree = "<group>"; };
 		4F192E00A8B7457C35B2D996E0F88A1B /* Pods-FormWithProgressBar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FormWithProgressBar-acknowledgements.plist"; sourceTree = "<group>"; };
 		506342D4348F0EDDA70EE7AC2250E7B3 /* Pods-FormWithProgressBarUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FormWithProgressBarUITests-frameworks.sh"; sourceTree = "<group>"; };
-		529D31E3F273CDCF14C2CA7008A19796 /* Pods_FormWithProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FormWithProgressBar.framework; path = "Pods-FormWithProgressBar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		563C7A3541A3C1C8EBC159DE9EAB5CCD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A0C422EA4F9D1C95F76D6E6DF1F3A15 /* FSPBPointExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPBPointExtension.swift; path = FlexibleSteppedProgressBar/Classes/FSPBPointExtension.swift; sourceTree = "<group>"; };
+		588A988C9A9FAE4000082EE13B59B902 /* Pods_FormWithProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FormWithProgressBar.framework; path = "Pods-FormWithProgressBar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63BDC8F33D6961E6DBC324B659BF86C9 /* FlexibleSteppedProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlexibleSteppedProgressBar.modulemap; sourceTree = "<group>"; };
+		686D55DAFE7EC30A4D8C9A245A13F1D5 /* FSPBTextLayerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPBTextLayerExtension.swift; path = FlexibleSteppedProgressBar/Classes/FSPBTextLayerExtension.swift; sourceTree = "<group>"; };
 		6B66C745AB8291A36829EA5A748B6CE8 /* Pods-FormWithProgressBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FormWithProgressBarTests.release.xcconfig"; sourceTree = "<group>"; };
 		6DDC0D814CB6404D7AFC6811552C1066 /* Pods-FormWithProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FormWithProgressBar.modulemap"; sourceTree = "<group>"; };
 		6E26797E68A88B5253DB89CC63942153 /* Pods-FormWithProgressBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FormWithProgressBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		71258F017FAACF76CB3B2CE56016A3AE /* Pods-FormWithProgressBar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FormWithProgressBar-frameworks.sh"; sourceTree = "<group>"; };
+		781EA7C00682ED14F8CBBDF04BBB124F /* FlexibleSteppedProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexibleSteppedProgressBar.xcconfig; sourceTree = "<group>"; };
 		7D8D028C84BCEBD2F847DA56F4FD59D6 /* Pods-FormWithProgressBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FormWithProgressBarUITests.release.xcconfig"; sourceTree = "<group>"; };
-		7E48FF1095F135D1A110BD1DD14D71BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F59F097F344FE2AF9A7307CE158FF81 /* FlexibleSteppedProgressBarTextLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexibleSteppedProgressBarTextLocation.swift; path = FlexibleSteppedProgressBar/Classes/FlexibleSteppedProgressBarTextLocation.swift; sourceTree = "<group>"; };
-		8E9537FDC681F38A1FBD9B21995302A9 /* FlexibleSteppedProgressBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexibleSteppedProgressBar.swift; path = FlexibleSteppedProgressBar/Classes/FlexibleSteppedProgressBar.swift; sourceTree = "<group>"; };
+		7E8F56A2AF472912F87528095576FE63 /* SwiftHEXColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftHEXColors.modulemap; sourceTree = "<group>"; };
+		7EF26A15A606F4AC2DFC2C09F83017AE /* FlexibleSteppedProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexibleSteppedProgressBar-umbrella.h"; sourceTree = "<group>"; };
+		7F49EAEDCC8E4E7D51AD8600FC7B0EB6 /* Pods_FormWithProgressBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FormWithProgressBarTests.framework; path = "Pods-FormWithProgressBarTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		857D43B575C1D99241516AFA2DB71662 /* FlexibleSteppedProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlexibleSteppedProgressBar.framework; path = FlexibleSteppedProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89963552FC244CD6693FE14CC36B9A5C /* FSPBPointExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPBPointExtension.swift; path = FlexibleSteppedProgressBar/Classes/FSPBPointExtension.swift; sourceTree = "<group>"; };
+		8F99C33E6094540BDB43BCDC9D78D933 /* Pods_FormWithProgressBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FormWithProgressBarUITests.framework; path = "Pods-FormWithProgressBarUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91F0FD3EDCEA411FE119574C5D7156D4 /* Pods-FormWithProgressBarUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FormWithProgressBarUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		92E4485965A4519244C7FC48217F25A1 /* FlexibleSteppedProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlexibleSteppedProgressBar.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D37518B6E5AC96D7A19F41377F13048 /* Pods-FormWithProgressBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FormWithProgressBarTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AD894CFD2893FDC2C609A57E9E3DA2A8 /* Pods_FormWithProgressBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FormWithProgressBarTests.framework; path = "Pods-FormWithProgressBarTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28630844148B338633F1D1B2AA63B44 /* SwiftHEXColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftHEXColors.framework; path = SwiftHEXColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EEA29EB749848E31364766E27385B4 /* SwiftHEXColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftHEXColors.h; path = Sources/SwiftHEXColors.h; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B641C3C1DBA98F05B2F17ABED3BC29E9 /* Pods-FormWithProgressBar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FormWithProgressBar-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B64663E922E27FCFA4F75A9082BD5C89 /* FlexibleSteppedProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlexibleSteppedProgressBar-dummy.m"; sourceTree = "<group>"; };
 		BE3A05E1CFE418D24AC1AA5BCFC095FD /* Pods-FormWithProgressBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FormWithProgressBar.debug.xcconfig"; sourceTree = "<group>"; };
+		BECF1EEAE4665BDC8DD029939004DF5E /* SwiftHEXColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHEXColors-umbrella.h"; sourceTree = "<group>"; };
 		BFFF3ADBA9901FBA10ED08461C45DBB2 /* Pods-FormWithProgressBarTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FormWithProgressBarTests-resources.sh"; sourceTree = "<group>"; };
 		C92B43401321FB49FAF3433706C14245 /* Pods-FormWithProgressBarTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FormWithProgressBarTests-umbrella.h"; sourceTree = "<group>"; };
+		CCC189C25EE44113CD20C40D86105441 /* FlexibleSteppedProgressBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexibleSteppedProgressBar.swift; path = FlexibleSteppedProgressBar/Classes/FlexibleSteppedProgressBar.swift; sourceTree = "<group>"; };
 		CCCFE8DEED6454665959578964D75FAE /* Pods-FormWithProgressBarTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FormWithProgressBarTests-dummy.m"; sourceTree = "<group>"; };
+		CF7D3D5414B055E895D03D9EE39FB027 /* SwiftHEXColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftHEXColors-dummy.m"; sourceTree = "<group>"; };
+		CFEB37F766F4708EC6A1438CD927EEA8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D6A5C91E6C9EF3C5C0FFD036561F40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DBE256E1AF37849A5734831F019C3EC9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E35CA1467E62796251E7C0CB4A91CD8B /* Pods-FormWithProgressBarTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FormWithProgressBarTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E6A9DC0856503D5BD358BF09433A6922 /* SwiftHEXColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftHEXColors.swift; path = Sources/SwiftHEXColors.swift; sourceTree = "<group>"; };
 		E9B6439D6FD0F1B192552664E3CBF5A8 /* Pods-FormWithProgressBar-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FormWithProgressBar-resources.sh"; sourceTree = "<group>"; };
 		EC7E6125EC3D24F589AE307A0D42F70B /* Pods-FormWithProgressBarUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FormWithProgressBarUITests-dummy.m"; sourceTree = "<group>"; };
-		ECE82F9D4B0BB9A5E618A72DDE121CBC /* FSPBTextLayerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPBTextLayerExtension.swift; path = FlexibleSteppedProgressBar/Classes/FSPBTextLayerExtension.swift; sourceTree = "<group>"; };
 		F3D90991DAD1A1B1F86BB542DAC5D9BA /* Pods-FormWithProgressBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FormWithProgressBar.release.xcconfig"; sourceTree = "<group>"; };
 		FEE97CE7FC631FC364E1466369A03559 /* Pods-FormWithProgressBarUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FormWithProgressBarUITests-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0F6952139AA8E200850CA9D4C2E36DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A29B30DB958E5C3F1C1E259B9E233A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2EBA76D2E0411ED965E7C23612D2052B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -109,11 +138,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BD8EE3C72EBB6596572E44294AC1334 /* Frameworks */ = {
+		36B191FB42B0097B9B7773C9C5D1A7D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBC9B11C5E9E43F2EA0A040D9A1A753A /* Foundation.framework in Frameworks */,
+				CEC649F1FBA48BFB12755874B7F77D21 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +166,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10BE3116CD2C6E39EE3067C0FFF2D327 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2D6A5C91E6C9EF3C5C0FFD036561F40 /* Info.plist */,
+				7E8F56A2AF472912F87528095576FE63 /* SwiftHEXColors.modulemap */,
+				1046E98E1737ECFA3DAE4B2A424B5FEA /* SwiftHEXColors.xcconfig */,
+				CF7D3D5414B055E895D03D9EE39FB027 /* SwiftHEXColors-dummy.m */,
+				06B4EB75EED2811749DAD6B5BCDF86F0 /* SwiftHEXColors-prefix.pch */,
+				BECF1EEAE4665BDC8DD029939004DF5E /* SwiftHEXColors-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftHEXColors";
+			sourceTree = "<group>";
+		};
 		3A52D30AE3C37130AE9BB1B8DFB297A0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,23 +225,27 @@
 			path = "Target Support Files/Pods-FormWithProgressBarTests";
 			sourceTree = "<group>";
 		};
-		49972E8CCDBCCFADB1A4458B8C1DDB1C /* Products */ = {
+		54793AEF49E572F691B91B65FA9BB18B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				25A36970C0A23324823EDB4B087AE1A3 /* FlexibleSteppedProgressBar.framework */,
-				529D31E3F273CDCF14C2CA7008A19796 /* Pods_FormWithProgressBar.framework */,
-				AD894CFD2893FDC2C609A57E9E3DA2A8 /* Pods_FormWithProgressBarTests.framework */,
-				3DE716C547FAEC6F7DF947A4ABCC7C97 /* Pods_FormWithProgressBarUITests.framework */,
+				857D43B575C1D99241516AFA2DB71662 /* FlexibleSteppedProgressBar.framework */,
+				588A988C9A9FAE4000082EE13B59B902 /* Pods_FormWithProgressBar.framework */,
+				7F49EAEDCC8E4E7D51AD8600FC7B0EB6 /* Pods_FormWithProgressBarTests.framework */,
+				8F99C33E6094540BDB43BCDC9D78D933 /* Pods_FormWithProgressBarUITests.framework */,
+				A28630844148B338633F1D1B2AA63B44 /* SwiftHEXColors.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		57430BCC61270BFF9994AEA4B965B668 /* Pods */ = {
+		65D3ED93FDB49610DB3955CAF876BE41 /* SwiftHEXColors */ = {
 			isa = PBXGroup;
 			children = (
-				7EF8CCB914EB9030E8FE4A73D9FE3059 /* FlexibleSteppedProgressBar */,
+				B2EEA29EB749848E31364766E27385B4 /* SwiftHEXColors.h */,
+				E6A9DC0856503D5BD358BF09433A6922 /* SwiftHEXColors.swift */,
+				10BE3116CD2C6E39EE3067C0FFF2D327 /* Support Files */,
 			);
-			name = Pods;
+			name = SwiftHEXColors;
+			path = SwiftHEXColors;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -206,23 +253,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				57430BCC61270BFF9994AEA4B965B668 /* Pods */,
-				49972E8CCDBCCFADB1A4458B8C1DDB1C /* Products */,
+				FE438480F631DAD499C148B9F3E9C846 /* Pods */,
+				54793AEF49E572F691B91B65FA9BB18B /* Products */,
 				3A52D30AE3C37130AE9BB1B8DFB297A0 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7EF8CCB914EB9030E8FE4A73D9FE3059 /* FlexibleSteppedProgressBar */ = {
-			isa = PBXGroup;
-			children = (
-				8E9537FDC681F38A1FBD9B21995302A9 /* FlexibleSteppedProgressBar.swift */,
-				7F59F097F344FE2AF9A7307CE158FF81 /* FlexibleSteppedProgressBarTextLocation.swift */,
-				6A0C422EA4F9D1C95F76D6E6DF1F3A15 /* FSPBPointExtension.swift */,
-				ECE82F9D4B0BB9A5E618A72DDE121CBC /* FSPBTextLayerExtension.swift */,
-				EA0BFD7DA9157DF9199A6B020D05F9FA /* Support Files */,
-			);
-			name = FlexibleSteppedProgressBar;
-			path = FlexibleSteppedProgressBar;
 			sourceTree = "<group>";
 		};
 		828950BCB02A3284322B19A7255C568E /* Pods-FormWithProgressBar */ = {
@@ -261,28 +295,50 @@
 			path = "Target Support Files/Pods-FormWithProgressBarUITests";
 			sourceTree = "<group>";
 		};
-		EA0BFD7DA9157DF9199A6B020D05F9FA /* Support Files */ = {
+		E25B7A565007E2DE38B316F0C9D47475 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				92E4485965A4519244C7FC48217F25A1 /* FlexibleSteppedProgressBar.modulemap */,
-				288A8405B40EF8FE71EE8AF3A4ECC88B /* FlexibleSteppedProgressBar.xcconfig */,
-				B64663E922E27FCFA4F75A9082BD5C89 /* FlexibleSteppedProgressBar-dummy.m */,
-				34DC2BD30A276E0EA91CE95DACFA33DE /* FlexibleSteppedProgressBar-prefix.pch */,
-				0AF6D26DD0ABF506CA8F1AAA41BB6A5B /* FlexibleSteppedProgressBar-umbrella.h */,
-				7E48FF1095F135D1A110BD1DD14D71BE /* Info.plist */,
+				63BDC8F33D6961E6DBC324B659BF86C9 /* FlexibleSteppedProgressBar.modulemap */,
+				781EA7C00682ED14F8CBBDF04BBB124F /* FlexibleSteppedProgressBar.xcconfig */,
+				4A8CAA3B53D4F249A3D4EC9BEB4CF3D9 /* FlexibleSteppedProgressBar-dummy.m */,
+				2860FAD9D7DD0A48C8DE62629519BB90 /* FlexibleSteppedProgressBar-prefix.pch */,
+				7EF26A15A606F4AC2DFC2C09F83017AE /* FlexibleSteppedProgressBar-umbrella.h */,
+				CFEB37F766F4708EC6A1438CD927EEA8 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FlexibleSteppedProgressBar";
 			sourceTree = "<group>";
 		};
+		F30D42C5CFD7AB74B29D2595531E7812 /* FlexibleSteppedProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				CCC189C25EE44113CD20C40D86105441 /* FlexibleSteppedProgressBar.swift */,
+				27CDFD533DE61A080647979FECF752F2 /* FlexibleSteppedProgressBarTextLocation.swift */,
+				89963552FC244CD6693FE14CC36B9A5C /* FSPBPointExtension.swift */,
+				686D55DAFE7EC30A4D8C9A245A13F1D5 /* FSPBTextLayerExtension.swift */,
+				E25B7A565007E2DE38B316F0C9D47475 /* Support Files */,
+			);
+			name = FlexibleSteppedProgressBar;
+			path = FlexibleSteppedProgressBar;
+			sourceTree = "<group>";
+		};
+		FE438480F631DAD499C148B9F3E9C846 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F30D42C5CFD7AB74B29D2595531E7812 /* FlexibleSteppedProgressBar */,
+				65D3ED93FDB49610DB3955CAF876BE41 /* SwiftHEXColors */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		16D1588DD2D73927E0D01A3CA1312626 /* Headers */ = {
+		7D295B5C4B4A34B24492019B65A640F0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				192AF2AE2A0C6EC2DB518DF5D3FEA634 /* Pods-FormWithProgressBar-umbrella.h in Headers */,
+				BBE11710BCD343F723C4C97D3DEBAD03 /* Pods-FormWithProgressBar-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +347,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF19F6F25FE1430E9AD9DFCA2D1AB897 /* Pods-FormWithProgressBarTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA87FD2158CC11DF059C49B246CC5F32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F28D9DF9217AEC2E9C0848157317F4 /* SwiftHEXColors-umbrella.h in Headers */,
+				885FC13807FCDB898C74EB0DDCD6B93E /* SwiftHEXColors.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,22 +378,21 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		419A8C72155C52D3F60778B6C16D07FF /* Pods-FormWithProgressBar */ = {
+		0DDABB9C51B9A11D60693FCDB7677810 /* SwiftHEXColors */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECD8415617CDD85F940B92D528271699 /* Build configuration list for PBXNativeTarget "Pods-FormWithProgressBar" */;
+			buildConfigurationList = F395393767E03E5FBDF5DB22FB8EFAE1 /* Build configuration list for PBXNativeTarget "SwiftHEXColors" */;
 			buildPhases = (
-				7A5738801C6195F8B8E199E99800D123 /* Sources */,
-				3BD8EE3C72EBB6596572E44294AC1334 /* Frameworks */,
-				16D1588DD2D73927E0D01A3CA1312626 /* Headers */,
+				38E050D6BF04FCA1CEDE517C5C0867F6 /* Sources */,
+				0F6952139AA8E200850CA9D4C2E36DF2 /* Frameworks */,
+				BA87FD2158CC11DF059C49B246CC5F32 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0A4A44C7382DC4161E4A0F037F20AAC2 /* PBXTargetDependency */,
 			);
-			name = "Pods-FormWithProgressBar";
-			productName = "Pods-FormWithProgressBar";
-			productReference = 529D31E3F273CDCF14C2CA7008A19796 /* Pods_FormWithProgressBar.framework */;
+			name = SwiftHEXColors;
+			productName = SwiftHEXColors;
+			productReference = A28630844148B338633F1D1B2AA63B44 /* SwiftHEXColors.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4F84F1F6CE6107F40B256969420D33E5 /* Pods-FormWithProgressBarTests */ = {
@@ -346,7 +410,7 @@
 			);
 			name = "Pods-FormWithProgressBarTests";
 			productName = "Pods-FormWithProgressBarTests";
-			productReference = AD894CFD2893FDC2C609A57E9E3DA2A8 /* Pods_FormWithProgressBarTests.framework */;
+			productReference = 7F49EAEDCC8E4E7D51AD8600FC7B0EB6 /* Pods_FormWithProgressBarTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		878CFD6608614D017343D238F44ED042 /* FlexibleSteppedProgressBar */ = {
@@ -363,7 +427,7 @@
 			);
 			name = FlexibleSteppedProgressBar;
 			productName = FlexibleSteppedProgressBar;
-			productReference = 25A36970C0A23324823EDB4B087AE1A3 /* FlexibleSteppedProgressBar.framework */;
+			productReference = 857D43B575C1D99241516AFA2DB71662 /* FlexibleSteppedProgressBar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C41489D027E8569EA7D1DEB138CE8670 /* Pods-FormWithProgressBarUITests */ = {
@@ -381,7 +445,26 @@
 			);
 			name = "Pods-FormWithProgressBarUITests";
 			productName = "Pods-FormWithProgressBarUITests";
-			productReference = 3DE716C547FAEC6F7DF947A4ABCC7C97 /* Pods_FormWithProgressBarUITests.framework */;
+			productReference = 8F99C33E6094540BDB43BCDC9D78D933 /* Pods_FormWithProgressBarUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EDA0242D1B006AD1D98C3D8A4DF6BA16 /* Pods-FormWithProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3911E72B083D2D9634BF708F77861EB7 /* Build configuration list for PBXNativeTarget "Pods-FormWithProgressBar" */;
+			buildPhases = (
+				CD3E4711F6B102C18D2339AEB7B07DD5 /* Sources */,
+				36B191FB42B0097B9B7773C9C5D1A7D7 /* Frameworks */,
+				7D295B5C4B4A34B24492019B65A640F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C82905A8A7782BAB514E7BC24D543A5D /* PBXTargetDependency */,
+				1E167CAB97D9E02BD3A1CF5E9D051C6D /* PBXTargetDependency */,
+			);
+			name = "Pods-FormWithProgressBar";
+			productName = "Pods-FormWithProgressBar";
+			productReference = 588A988C9A9FAE4000082EE13B59B902 /* Pods_FormWithProgressBar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -401,24 +484,26 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 49972E8CCDBCCFADB1A4458B8C1DDB1C /* Products */;
+			productRefGroup = 54793AEF49E572F691B91B65FA9BB18B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				878CFD6608614D017343D238F44ED042 /* FlexibleSteppedProgressBar */,
-				419A8C72155C52D3F60778B6C16D07FF /* Pods-FormWithProgressBar */,
+				EDA0242D1B006AD1D98C3D8A4DF6BA16 /* Pods-FormWithProgressBar */,
 				4F84F1F6CE6107F40B256969420D33E5 /* Pods-FormWithProgressBarTests */,
 				C41489D027E8569EA7D1DEB138CE8670 /* Pods-FormWithProgressBarUITests */,
+				0DDABB9C51B9A11D60693FCDB7677810 /* SwiftHEXColors */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7A5738801C6195F8B8E199E99800D123 /* Sources */ = {
+		38E050D6BF04FCA1CEDE517C5C0867F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFFD94FEF6BF20ACC11F11547A7D2CF5 /* Pods-FormWithProgressBar-dummy.m in Sources */,
+				6F715041CDA038200FF25D2991957E57 /* SwiftHEXColors-dummy.m in Sources */,
+				078FC283CF7B1A0D907415EAF7A15D50 /* SwiftHEXColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +516,14 @@
 				92974A612A492CD211BC6F98BCF8A74F /* FlexibleSteppedProgressBarTextLocation.swift in Sources */,
 				9E21B6709CA859CCABB8B6BAB15FF4F8 /* FSPBPointExtension.swift in Sources */,
 				B6F97F627ED13C6632CD06960ACA5384 /* FSPBTextLayerExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3E4711F6B102C18D2339AEB7B07DD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFEC18023F35D17B71A8611C20DCFB8E /* Pods-FormWithProgressBar-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,23 +546,29 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0A4A44C7382DC4161E4A0F037F20AAC2 /* PBXTargetDependency */ = {
+		1E167CAB97D9E02BD3A1CF5E9D051C6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = FlexibleSteppedProgressBar;
-			target = 878CFD6608614D017343D238F44ED042 /* FlexibleSteppedProgressBar */;
-			targetProxy = 7B385DAAF0E39632FCBA791108E8F060 /* PBXContainerItemProxy */;
+			name = SwiftHEXColors;
+			target = 0DDABB9C51B9A11D60693FCDB7677810 /* SwiftHEXColors */;
+			targetProxy = 3CA19587CBFB9CC19A5B8EBFF2EAA516 /* PBXContainerItemProxy */;
 		};
 		63118535D6268C780CE395FEB4ACFEB6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-FormWithProgressBar";
-			target = 419A8C72155C52D3F60778B6C16D07FF /* Pods-FormWithProgressBar */;
+			target = EDA0242D1B006AD1D98C3D8A4DF6BA16 /* Pods-FormWithProgressBar */;
 			targetProxy = F81BA3A0A0D0451943E9DC806B156321 /* PBXContainerItemProxy */;
 		};
 		BD2676E5AF571E989E01B650BA027F57 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-FormWithProgressBar";
-			target = 419A8C72155C52D3F60778B6C16D07FF /* Pods-FormWithProgressBar */;
+			target = EDA0242D1B006AD1D98C3D8A4DF6BA16 /* Pods-FormWithProgressBar */;
 			targetProxy = E0E6F8A1A421B7CC8A4FA5578FCC226E /* PBXContainerItemProxy */;
+		};
+		C82905A8A7782BAB514E7BC24D543A5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlexibleSteppedProgressBar;
+			target = 878CFD6608614D017343D238F44ED042 /* FlexibleSteppedProgressBar */;
+			targetProxy = D247727746ECCD5CF545D4DF2CF23636 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -502,6 +601,42 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C05C96F0EF20099DE34B365A51653A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3D90991DAD1A1B1F86BB542DAC5D9BA /* Pods-FormWithProgressBar.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FormWithProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FormWithProgressBar/Pods-FormWithProgressBar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -698,6 +833,39 @@
 			};
 			name = Release;
 		};
+		8B207891AA7BEF2774B6FD1F780CEFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1046E98E1737ECFA3DAE4B2A424B5FEA /* SwiftHEXColors.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftHEXColors/SwiftHEXColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftHEXColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftHEXColors/SwiftHEXColors.modulemap";
+				PRODUCT_MODULE_NAME = SwiftHEXColors;
+				PRODUCT_NAME = SwiftHEXColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		9482654D9AB65105E4F547B19CB85831 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B66C745AB8291A36829EA5A748B6CE8 /* Pods-FormWithProgressBarTests.release.xcconfig */;
@@ -733,7 +901,7 @@
 			};
 			name = Release;
 		};
-		AD3C06953E5F29C13F53FA81F0783C08 /* Debug */ = {
+		B52E698D68AD73B3DB90AFA7B25494F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BE3A05E1CFE418D24AC1AA5BCFC095FD /* Pods-FormWithProgressBar.debug.xcconfig */;
 			buildSettings = {
@@ -769,9 +937,41 @@
 			};
 			name = Debug;
 		};
+		C900BC07CE8483FC93737E57256BA51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1046E98E1737ECFA3DAE4B2A424B5FEA /* SwiftHEXColors.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftHEXColors/SwiftHEXColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftHEXColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftHEXColors/SwiftHEXColors.modulemap";
+				PRODUCT_MODULE_NAME = SwiftHEXColors;
+				PRODUCT_NAME = SwiftHEXColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		CA56DBD2D4DDA21E13CF908ECA436263 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 288A8405B40EF8FE71EE8AF3A4ECC88B /* FlexibleSteppedProgressBar.xcconfig */;
+			baseConfigurationReference = 781EA7C00682ED14F8CBBDF04BBB124F /* FlexibleSteppedProgressBar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -803,7 +1003,7 @@
 		};
 		DC7D796ED101C6DD7DC3047F47CFDD20 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 288A8405B40EF8FE71EE8AF3A4ECC88B /* FlexibleSteppedProgressBar.xcconfig */;
+			baseConfigurationReference = 781EA7C00682ED14F8CBBDF04BBB124F /* FlexibleSteppedProgressBar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -834,42 +1034,6 @@
 			};
 			name = Release;
 		};
-		F613BBC46400213E3E197C5C4C15BACE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3D90991DAD1A1B1F86BB542DAC5D9BA /* Pods-FormWithProgressBar.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FormWithProgressBar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FormWithProgressBar/Pods-FormWithProgressBar.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -887,6 +1051,15 @@
 			buildConfigurations = (
 				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
 				703082A85162812D3B777E668767AD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3911E72B083D2D9634BF708F77861EB7 /* Build configuration list for PBXNativeTarget "Pods-FormWithProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B52E698D68AD73B3DB90AFA7B25494F6 /* Debug */,
+				2C05C96F0EF20099DE34B365A51653A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -909,11 +1082,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ECD8415617CDD85F940B92D528271699 /* Build configuration list for PBXNativeTarget "Pods-FormWithProgressBar" */ = {
+		F395393767E03E5FBDF5DB22FB8EFAE1 /* Build configuration list for PBXNativeTarget "SwiftHEXColors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD3C06953E5F29C13F53FA81F0783C08 /* Debug */,
-				F613BBC46400213E3E197C5C4C15BACE /* Release */,
+				C900BC07CE8483FC93737E57256BA51D /* Debug */,
+				8B207891AA7BEF2774B6FD1F780CEFAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,11 +8,12 @@
 
 import UIKit
 import FlexibleSteppedProgressBar
+import SwiftHEXColors
 
 final class OnlyProgressBarViewController: UIViewController {
 
     @IBOutlet weak var progressBar: FlexibleSteppedProgressBar!
-    //    var progressBar: FlexibleSteppedProgressBar!
+    let blueColor = UIColor(hexString: "#2387d1")!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +28,14 @@ final class OnlyProgressBarViewController: UIViewController {
 extension OnlyProgressBarViewController {
     fileprivate func prepareProgressBar() {
         progressBar.delegate = self
+        
+        // custumize UI / animation
+        progressBar.currentSelectedCenterColor = .white
+        progressBar.selectedOuterCircleStrokeColor = blueColor
+        progressBar.selectedBackgoundColor = blueColor
+        
+        progressBar.selectedOuterCircleLineWidth = 5.0
+        progressBar.stepAnimationDuration = 0.2
     }
 }
 

@@ -1,16 +1,20 @@
 PODS:
   - FlexibleSteppedProgressBar (0.5.0)
+  - SwiftHEXColors (1.1.1)
 
 DEPENDENCIES:
   - FlexibleSteppedProgressBar
+  - SwiftHEXColors
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - FlexibleSteppedProgressBar
+    - SwiftHEXColors
 
 SPEC CHECKSUMS:
   FlexibleSteppedProgressBar: a8894ca4913e34ea2c694be09a7d4d6b1f1bdc74
+  SwiftHEXColors: 9681e756dc78a99ae97f277165b3f5e33b087553
 
-PODFILE CHECKSUM: c0ce8738664597817342b08f12390230b6d819b5
+PODFILE CHECKSUM: 3c5ccef83f40350264ef026f56d4f989de254fa7
 
 COCOAPODS: 1.5.0
