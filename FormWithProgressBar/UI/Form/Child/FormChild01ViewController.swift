@@ -10,7 +10,12 @@ import UIKit
 
 final class FormChild01ViewController: UIViewController {
     
+
+    @IBOutlet weak var titleLabel: UILabel!
+    var titleStr: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        titleLabel.text = titleStr
     }
 }

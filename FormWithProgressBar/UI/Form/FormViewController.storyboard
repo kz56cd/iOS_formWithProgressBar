@@ -38,23 +38,51 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BIP-Ag-Prd">
                                 <rect key="frame" x="0.0" y="527" width="375" height="140"/>
                                 <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xnm-Ft-68g">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="0.5"/>
+                                        <color key="backgroundColor" red="0.29146177030456855" green="0.29146177030456855" blue="0.29146177030456855" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="0.5" id="FAI-tH-uqJ"/>
+                                        </constraints>
+                                    </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="omf-lw-Zud">
                                         <rect key="frame" x="10" y="10" width="355" height="120"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F8x-b7-OkH">
-                                                <rect key="frame" x="0.0" y="0.0" width="355" height="37.5"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F8x-b7-OkH" customClass="FlexibleSteppedProgressBar" customModule="FlexibleSteppedProgressBar">
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="20"/>
+                                                <color key="backgroundColor" white="0.97999999999999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="Lpl-7F-Ksv"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="numberOfPoints">
+                                                        <integer key="value" value="6"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
+                                                        <real key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="radius">
+                                                        <real key="value" value="6"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="progressRadius">
+                                                        <real key="value" value="6"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="progressLineHeight">
+                                                        <real key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fixed Area" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I7e-mr-7CQ">
-                                                <rect key="frame" x="0.0" y="41.5" width="355" height="37"/>
+                                                <rect key="frame" x="0.0" y="24" width="355" height="46"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.81883500647668395" green="0.81883500647668395" blue="0.81883500647668395" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="5hS-Z0-eW2">
-                                                <rect key="frame" x="0.0" y="82.5" width="355" height="37.5"/>
+                                                <rect key="frame" x="0.0" y="74" width="355" height="46"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Scl-TZ-ls9">
-                                                        <rect key="frame" x="0.0" y="0.0" width="172.5" height="37.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="172.5" height="46"/>
                                                         <color key="backgroundColor" red="0.61853114558034605" green="0.76040953505946396" blue="0.84273801813471505" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="back">
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -64,7 +92,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nkd-Mz-NoG">
-                                                        <rect key="frame" x="182.5" y="0.0" width="172.5" height="37.5"/>
+                                                        <rect key="frame" x="182.5" y="0.0" width="172.5" height="46"/>
                                                         <color key="backgroundColor" red="0.61853114558034605" green="0.76040953505946396" blue="0.84273801813471505" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="next">
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -80,18 +108,20 @@
                                             </stackView>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="5hS-Z0-eW2" firstAttribute="height" secondItem="F8x-b7-OkH" secondAttribute="height" id="KqL-yS-mgZ"/>
-                                            <constraint firstItem="I7e-mr-7CQ" firstAttribute="height" secondItem="F8x-b7-OkH" secondAttribute="height" id="nfu-EV-i58"/>
+                                            <constraint firstItem="5hS-Z0-eW2" firstAttribute="height" secondItem="I7e-mr-7CQ" secondAttribute="height" id="gUn-Qp-Q5F"/>
                                         </constraints>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.98160216968911918" green="0.98125456844841319" blue="0.90704043282616187" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="0.97999999999999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="xnm-Ft-68g" secondAttribute="trailing" id="1b8-5L-62I"/>
                                     <constraint firstAttribute="trailing" secondItem="omf-lw-Zud" secondAttribute="trailing" constant="10" id="1xp-za-sG2"/>
                                     <constraint firstItem="omf-lw-Zud" firstAttribute="leading" secondItem="BIP-Ag-Prd" secondAttribute="leading" constant="10" id="BHu-Et-EhI"/>
+                                    <constraint firstItem="xnm-Ft-68g" firstAttribute="leading" secondItem="BIP-Ag-Prd" secondAttribute="leading" id="HRm-jY-Rcn"/>
                                     <constraint firstAttribute="bottom" secondItem="omf-lw-Zud" secondAttribute="bottom" constant="10" id="QVQ-0n-zQN"/>
                                     <constraint firstItem="omf-lw-Zud" firstAttribute="top" secondItem="BIP-Ag-Prd" secondAttribute="top" constant="10" id="ahA-VV-f3t"/>
                                     <constraint firstAttribute="height" constant="140" id="fJR-Ni-S9W"/>
+                                    <constraint firstItem="xnm-Ft-68g" firstAttribute="top" secondItem="BIP-Ag-Prd" secondAttribute="top" id="vf6-JU-bHd"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -111,6 +141,7 @@
                     </view>
                     <connections>
                         <outlet property="containerView" destination="0JR-ZW-eiP" id="zYe-Ps-HW8"/>
+                        <outlet property="progressBar" destination="F8x-b7-OkH" id="05S-Yl-YeQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="quv-6f-HF2" userLabel="First Responder" sceneMemberID="firstResponder"/>
