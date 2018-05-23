@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		EA3B568520B542DE00C1C9AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B568420B542DE00C1C9AA /* AppDelegate.swift */; };
-		EA3B568720B542DE00C1C9AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B568620B542DE00C1C9AA /* ViewController.swift */; };
-		EA3B568A20B542DE00C1C9AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3B568820B542DE00C1C9AA /* Main.storyboard */; };
 		EA3B568C20B542E000C1C9AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3B568B20B542E000C1C9AA /* Assets.xcassets */; };
 		EA3B568F20B542E000C1C9AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3B568D20B542E000C1C9AA /* LaunchScreen.storyboard */; };
 		EA3B569A20B542E000C1C9AA /* FormWithProgressBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B569920B542E000C1C9AA /* FormWithProgressBarTests.swift */; };
 		EA3B56A520B542E000C1C9AA /* FormWithProgressBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B56A420B542E000C1C9AA /* FormWithProgressBarUITests.swift */; };
+		EA3B56B820B549BA00C1C9AA /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B56B720B549BA00C1C9AA /* TopViewController.swift */; };
+		EA3B56BA20B549C400C1C9AA /* TopViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3B56B920B549C400C1C9AA /* TopViewController.storyboard */; };
+		EA3B56BC20B549FA00C1C9AA /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B56BB20B549FA00C1C9AA /* Storyboards.swift */; };
+		EA3B56BF20B54B9E00C1C9AA /* OnlyProgressBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B56BE20B54B9E00C1C9AA /* OnlyProgressBarViewController.swift */; };
+		EA3B56C120B54BA500C1C9AA /* OnlyProgressBarViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3B56C020B54BA500C1C9AA /* OnlyProgressBarViewController.storyboard */; };
+		EA3B56C420B54D0300C1C9AA /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B56C320B54D0300C1C9AA /* FormViewController.swift */; };
+		EA3B56C620B54D0900C1C9AA /* FormViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3B56C520B54D0900C1C9AA /* FormViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +41,6 @@
 /* Begin PBXFileReference section */
 		EA3B568120B542DE00C1C9AA /* FormWithProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormWithProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3B568420B542DE00C1C9AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA3B568620B542DE00C1C9AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EA3B568920B542DE00C1C9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA3B568B20B542E000C1C9AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA3B568E20B542E000C1C9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA3B569020B542E000C1C9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,13 @@
 		EA3B56A020B542E000C1C9AA /* FormWithProgressBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormWithProgressBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3B56A420B542E000C1C9AA /* FormWithProgressBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormWithProgressBarUITests.swift; sourceTree = "<group>"; };
 		EA3B56A620B542E000C1C9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3B56B720B549BA00C1C9AA /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		EA3B56B920B549C400C1C9AA /* TopViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TopViewController.storyboard; sourceTree = "<group>"; };
+		EA3B56BB20B549FA00C1C9AA /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		EA3B56BE20B54B9E00C1C9AA /* OnlyProgressBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyProgressBarViewController.swift; sourceTree = "<group>"; };
+		EA3B56C020B54BA500C1C9AA /* OnlyProgressBarViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnlyProgressBarViewController.storyboard; sourceTree = "<group>"; };
+		EA3B56C320B54D0300C1C9AA /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		EA3B56C520B54D0900C1C9AA /* FormViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FormViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +108,12 @@
 			isa = PBXGroup;
 			children = (
 				EA3B568420B542DE00C1C9AA /* AppDelegate.swift */,
-				EA3B568620B542DE00C1C9AA /* ViewController.swift */,
-				EA3B568820B542DE00C1C9AA /* Main.storyboard */,
 				EA3B568B20B542E000C1C9AA /* Assets.xcassets */,
 				EA3B568D20B542E000C1C9AA /* LaunchScreen.storyboard */,
 				EA3B569020B542E000C1C9AA /* Info.plist */,
+				EA3B56B520B5498400C1C9AA /* Components */,
+				EA3B56B320B5498300C1C9AA /* UI */,
+				EA3B56B420B5498400C1C9AA /* Constants */,
 			);
 			path = FormWithProgressBar;
 			sourceTree = "<group>";
@@ -123,6 +134,58 @@
 				EA3B56A620B542E000C1C9AA /* Info.plist */,
 			);
 			path = FormWithProgressBarUITests;
+			sourceTree = "<group>";
+		};
+		EA3B56B320B5498300C1C9AA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B56B620B549A600C1C9AA /* Top */,
+				EA3B56BD20B54B7F00C1C9AA /* OnlyProgressBar */,
+				EA3B56C220B54CEC00C1C9AA /* Form */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		EA3B56B420B5498400C1C9AA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B56BB20B549FA00C1C9AA /* Storyboards.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		EA3B56B520B5498400C1C9AA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EA3B56B620B549A600C1C9AA /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B56B920B549C400C1C9AA /* TopViewController.storyboard */,
+				EA3B56B720B549BA00C1C9AA /* TopViewController.swift */,
+			);
+			path = Top;
+			sourceTree = "<group>";
+		};
+		EA3B56BD20B54B7F00C1C9AA /* OnlyProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B56C020B54BA500C1C9AA /* OnlyProgressBarViewController.storyboard */,
+				EA3B56BE20B54B9E00C1C9AA /* OnlyProgressBarViewController.swift */,
+			);
+			path = OnlyProgressBar;
+			sourceTree = "<group>";
+		};
+		EA3B56C220B54CEC00C1C9AA /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B56C520B54D0900C1C9AA /* FormViewController.storyboard */,
+				EA3B56C320B54D0300C1C9AA /* FormViewController.swift */,
+			);
+			path = Form;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +295,9 @@
 			files = (
 				EA3B568F20B542E000C1C9AA /* LaunchScreen.storyboard in Resources */,
 				EA3B568C20B542E000C1C9AA /* Assets.xcassets in Resources */,
-				EA3B568A20B542DE00C1C9AA /* Main.storyboard in Resources */,
+				EA3B56C120B54BA500C1C9AA /* OnlyProgressBarViewController.storyboard in Resources */,
+				EA3B56C620B54D0900C1C9AA /* FormViewController.storyboard in Resources */,
+				EA3B56BA20B549C400C1C9AA /* TopViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +339,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA3B568720B542DE00C1C9AA /* ViewController.swift in Sources */,
+				EA3B56BC20B549FA00C1C9AA /* Storyboards.swift in Sources */,
+				EA3B56BF20B54B9E00C1C9AA /* OnlyProgressBarViewController.swift in Sources */,
+				EA3B56B820B549BA00C1C9AA /* TopViewController.swift in Sources */,
+				EA3B56C420B54D0300C1C9AA /* FormViewController.swift in Sources */,
 				EA3B568520B542DE00C1C9AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,14 +379,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EA3B568820B542DE00C1C9AA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EA3B568920B542DE00C1C9AA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EA3B568D20B542E000C1C9AA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
