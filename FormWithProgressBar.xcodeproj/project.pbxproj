@@ -135,6 +135,7 @@
 				EA3B567D20B542DE00C1C9AA /* Sources */,
 				EA3B567E20B542DE00C1C9AA /* Frameworks */,
 				EA3B567F20B542DE00C1C9AA /* Resources */,
+				EA3B56B220B5488E00C1C9AA /* SwiftGen */,
 			);
 			buildRules = (
 			);
@@ -250,6 +251,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EA3B56B220B5488E00C1C9AA /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftgen >/dev/null; then\nswiftgen storyboards --template swift4 \"$PROJECT_DIR/FormWithProgressBar\" --output \"$PROJECT_DIR/FormWithProgressBar/Constants/Storyboards.swift\"\nelse\necho \"warning: SwiftGen not installed, download it from https://github.com/AliSoftware/SwiftGen\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EA3B567D20B542DE00C1C9AA /* Sources */ = {
